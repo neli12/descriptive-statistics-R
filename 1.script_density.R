@@ -9,6 +9,9 @@ list.files()
 
 dados  <- read.csv("dataset.csv", sep = ";")[,-1:-2]
 
+## Or load dataset from github
+githubURL <- "https://github.com/neli12/descriptive-statistics-R/raw/main/dataset.RData"
+load(url(githubURL))
 
 # Select randomly 30% of the dataset and split in training and validation
 val_rows <- sample(nrow(dados), 116)
