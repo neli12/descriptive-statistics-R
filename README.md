@@ -2,6 +2,7 @@
 
 
 # Descriptive Statistics in R
+(work in progress!!)
 
 Hey there! In this repository you'll find some basic R script for making customized graphs and figure to represent in the best possible way the distribution of your dataset. In these examples, I am using a small dataset that contain the values of two variables: `Clay content` and `OM` (organic matter).
 
