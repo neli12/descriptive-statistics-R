@@ -51,7 +51,7 @@ dev.off()
 tiff("Box1.tif", width = 1800, height = 1200, res = 300)
 ggplot(properties, aes(x = name, y=value, fill = name)) + 
   geom_boxplot(show.legend = FALSE) +
-  scale_fill_brewer(palette="BuPu") + 
+  scale_fill_brewer(palette="BuPu") +   ## You can change the palette here to customize the colors of your boxplots
   theme_bw() + ylab(expression(paste("Content (g ", " ", kg^-1, ")"))) + xlab("") + 
   theme(axis.text.x = element_text(size = 8, color = "black")) + 
   theme(axis.text.y = element_text(size = 12, color = "black")) + 
