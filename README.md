@@ -4,7 +4,9 @@
 # Descriptive Statistics in R
 (work in progress!!)
 
-Hey there! In this repository you'll find some basic R script for making customized graphs and figure to represent in the best possible way the distribution of your dataset. In these examples, I am using a small dataset that contain the values of two variables: `Clay content` and `OM` (organic matter).
+Hey there! In this repository you'll find some basic R script for making customized graphs and figure to represent in the best possible way the distribution of your dataset. In these examples, I am using a small dataset that contain the values of two variables: `Clay content` and `OM` (organic matter). The figures can be found in the folder `figures`.  
+
+For some scripts (e.g. `script_boxplots_LAI`), I am not providing the dataset because they are not of free access. Instead, I am providing the reference to the article where the figure was published or the contact of the author of the dataset.
 
 - `1.script_density`: density plots of training and validation sets.
 - `2.script_boxplots`: boxplots of training and validation sets in a facet configuration.
