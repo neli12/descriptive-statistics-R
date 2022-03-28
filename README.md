@@ -3,5 +3,6 @@
 
 # Descriptive Statistics in R
 
-- `1.script_density`: obtain density plots of training and validation sets.
-- `2.script_boxplots`: obtain boxplots of training and validation sets in a facet configuration.
+- `1.script_density`: density plots of training and validation sets.
+- `2.script_boxplots`: boxplots of training and validation sets in a facet configuration.
+- `3.script_histograms_and_dist`: histograms and distribution of two datasets (clay content and OM) in the same graph.
