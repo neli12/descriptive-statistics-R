@@ -11,4 +11,4 @@ For some scripts (e.g. `script_boxplots_LAI`), I am not providing the dataset be
 - `1.script_density`: density plots of training and validation sets.
 - `2.script_boxplots`: boxplots of training and validation sets in a facet configuration.
 - `3.script_histograms_and_dist`: histograms and distribution of two datasets (clay content and OM) in the same graph.
-- `4.script_boxplots_LAI`: Time series boxplot of the Leaf Area Index (LAI). This script can be used to see the distributions of a dataset obtained in different period. You can find this boxplot in Fig. 8 of the following <a href="https://link.springer.com/article/10.1007/s11119-022-09896-1" target="_blank">article</a>.
+- `4.script_boxplots_LAI`: This script presents time series boxplot of the Leaf Area Index (LAI). This script can be used to see the distributions of a dataset obtained in different period. You can find this boxplot in Fig. 8 of the following <a href="https://link.springer.com/article/10.1007/s11119-022-09896-1" target="_blank">article</a>.
