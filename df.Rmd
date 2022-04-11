@@ -13,14 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Com este tutorial pretende-se oferecer um exemplo de como acessar e utilizar scripts de R disponibilizados no Github do grupo GEOCIS. Este exemplo serve como base para todos os demais scripts que se encontram na plataforma. Neste exemplo, iremos calcular estatísticas descritivas, realizar gráficos simples (histogramas, boxplots e ggridges) e salvar com resolução de 300 dpi. O conjunto de dados que iremos utilizar como exemplo contém pouco mais de 100 observações, com vários atributos fisico-químicos do solo e análises espectrais.
-
-### Acessando os dados salvos no GitHub
-
-Você deve acessar a conta do **GEOCIS** no [GitHub](www.github.com) e descargar o arquivo **dados.csv** e o  
-**script_descriptive_statistics.R**. Com eles iremos fazer este primer tutorial. Os dados do acesso são os seguintes:  
- * nome de usuário ou email: GEOCIS (geocis@usp.br)  
- * senha: geocis_2020  
+Com este tutorial pretende-se oferecer um exemplo de como acessar e utilizar scripts de R disponibilizados no Github do grupo GEOCIS. Este exemplo serve como base para todos os demais scripts que se encontram na plataforma. Neste exemplo, iremos calcular estatísticas descritivas, realizar gráficos simples (histogramas, boxplots e ggridges) e salvar com resolução de 300 dpi. O conjunto de dados que iremos utilizar como exemplo contém pouco mais de 100 observações, com vários atributos fisico-químicos do solo e análises espectrais. 
 
 
 ### Instalando pacotes
@@ -59,7 +52,7 @@ dat1 <- read.csv("dados.csv", h=TRUE, sep=";") #o argumento "sep" pode ser difer
 #dependendo das configurações do seu computador
 ```
 
-O conjunto de dados que acabamos de carregar no R não contem valores nulos, mas em alguns casos você pode ter. A função **complete.cases()** serve para excluir as linas ou colunas que contém valores nulos ou NA. Preste atenção com esta função, porque ela exclue toda a linha ou coluna com NAs.
+O conjunto de dados que acabamos de carregar no R não contem valores nulos, mas em alguns casos você pode ter. A função **complete.cases()** serve para excluir as linHas ou colunas que contém valores nulos ou NA. Preste atenção com esta função, porque ela exclue toda a linha ou coluna com NAs.
 
 ```{r}
 dat2 <- dat1[complete.cases(dat1),]  #com esta função sao excluidos os valores nulos (NA)
