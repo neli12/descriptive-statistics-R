@@ -15,4 +15,5 @@ For some scripts (e.g. `script_boxplots_LAI`), I am not providing the dataset be
 - `5.script_barplot_circ`: This script is used to present a circular barplot to differentiate groups.
 - `6.script_corrplot`: Making different types of correlation plots.
 - `7.script_plotly`: Violin interactive plots with plotly. Example from <a href="https://plotly.com/r/violin/" target="blank">here</a>.
+- `8.script_lines_with_sd`: Plotting mean spectral curves with their standard deviation. No dataset provided. See the folder `figures` to find the example.
 - `script_descriptive_statistics`: to perform descriptive graphs (boxplots, histograms, ggridges, etc.). For this, use the dataset `dados`.
