@@ -1,4 +1,4 @@
-<img src = "https://img.shields.io/github/last-commit/neli12/descriptive-statistics-R"> <img src = "https://img.shields.io/github/languages/count/neli12/descriptive-statistics-R"> <img src = "https://img.shields.io/github/license/neli12/descriptive-statistics-R?color=green"> <img src = "https://img.shields.io/github/downloads/neli12/descriptive-statistics-R/total"> 
+<img src = "https://img.shields.io/github/last-commit/neli12/descriptive-statistics-R"> <img src = "https://img.shields.io/github/languages/count/neli12/descriptive-statistics-R"> <img src = "https://img.shields.io/github/license/neli12/descriptive-statistics-R?color=green"> <img src = "https://img.shields.io/github/downloads/neli12/descriptive-statistics-R/total"> ![visitors](https://visitor-badge.glitch.me/badge?page_id=${neli12}.${descriptive-statistics-R})
 
 
 # Descriptive Statistics Figures in R
